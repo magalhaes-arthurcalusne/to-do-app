@@ -6,7 +6,7 @@
 
 body {
     background-color: #f0f2f5;
-    font-family: "Segoe UI", sans-serif;
+    font-family: 'Lato' , sans-serif;
 }
 
 .container {
@@ -20,13 +20,53 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 30px;
+    font-family: 'Lato' , sans-serif;
 }
 
 .inputs {
     display: flex;
-    gap: 10px ;
+    gap: 10px;
 }
 
 #input-tarefa {
     flex: 1;
+    margin-top: 10px ;
+    padding: 5px;
+    font-family: 'Lato' , sans-serif;
+}
+
+#btn-add {
+    background-color: blueviolet;
+    color:aqua;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Lato' , sans-serif;
+
+}
+
+#info-tarefas {
+    text-align: center;
+    margin: 15px;
+    color: rgb(149, 222, 247);
+}
+
+.tarefa-item {
+    display: flex;
+    align-items: center;
+    padding: 11px;
+    background-color: rgb(106, 22, 142);
+    border-radius: 7px;
+    margin-bottom: 12px;
+}
+
+.btn-delete {
+    margin-left: auto;
+    background-color: rgb(183, 65, 65);
+    color: #f0f0f0 ;
+    border: none;
+    border-radius:  7px;
+    cursor: pointer;
+    padding: 4px;
 }

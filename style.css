@@ -2,25 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato' , sans-serif;
 }
 
 body {
-    background-color: #f0f2f5;
+    background-color: #88afeac9;
     font-family: 'Lato' , sans-serif;
 }
 
 .container {
-    max-width: 500px;
-    background-color: blue;
+    max-width: 600px;
+    background-color: rgb(74, 74, 175);
     padding: 100px ;
     border-radius: 15px;
     margin: 70px auto;
+    
 }
 
 h1 {
     text-align: center;
-    margin-bottom: 30px;
-    font-family: 'Lato' , sans-serif;
+    margin-bottom: 60px;
+    color:rgb(6, 11, 109);
+    font-size: 50px;
 }
 
 .inputs {
@@ -32,17 +35,17 @@ h1 {
     flex: 1;
     margin-top: 10px ;
     padding: 5px;
-    font-family: 'Lato' , sans-serif;
+    border: 4px double rgb(86, 166, 236);
 }
 
 #btn-add {
-    background-color: blueviolet;
+    background-color: rgb(76, 43, 226);
     color:aqua;
     border: none;
     padding: 6px;
     border-radius: 3px;
     cursor: pointer;
-    font-family: 'Lato' , sans-serif;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 
 }
 
@@ -50,23 +53,28 @@ h1 {
     text-align: center;
     margin: 15px;
     color: rgb(149, 222, 247);
+    text-decoration: underline;
 }
 
 .tarefa-item {
     display: flex;
     align-items: center;
     padding: 11px;
-    background-color: rgb(106, 22, 142);
+    background-color: rgb(5, 36, 129);
     border-radius: 7px;
     margin-bottom: 12px;
+    overflow-wrap: anywhere;
+    color:#f0f0f0;
 }
 
 .btn-delete {
     margin-left: auto;
+    flex-shrink: 0;
     background-color: rgb(183, 65, 65);
     color: #f0f0f0 ;
     border: none;
     border-radius:  7px;
     cursor: pointer;
     padding: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }

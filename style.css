@@ -65,6 +65,7 @@ h1 {
     margin-bottom: 12px;
     overflow-wrap: anywhere;
     color:#f0f0f0;
+    gap: 6px;
 }
 
 .btn-delete {
@@ -77,9 +78,27 @@ h1 {
     cursor: pointer;
     padding: 4px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.4s ease-in;
+}
+
+.btn-delete:hover {
+     background-color: #991B1B;
 }
 
 .tarefa-completa {
-    background-color: rgb(9, 63, 9);
-    color: lightgreen;
+    background-color: rgb(3, 72, 3);
+    color: rgb(135, 240, 135);
+    border: none;
+}
+
+.checkbox-tarefa {
+    width: 20px;
+    height: 20px;
+    transition: accent-color 0.4s ease;
+
+}
+
+.checkbox-tarefa:checked {
+
+    accent-color: green;
 }
